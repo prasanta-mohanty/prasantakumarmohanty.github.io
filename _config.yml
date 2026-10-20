@@ -1,39 +1,41 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-baseurl: "/academic-homepage" # the subpath of your site, e.g. /blog
+title: "Prasanta Kumar Mohanty, Ph.D."
+first_name: "Prasanta Kumar"
+last_name: "Mohanty"
+position: "Postdoctoral Fellow"
+affiliation: "The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)"[cite: 1]
+email: "your-email@cuhk.edu.cn"[cite: 1]
+description: "Postdoctoral Fellow at CUHK-Shenzhen with a PhD from IIT Roorkee. Researching AI-driven EV grid integration, battery SOC/SOH estimation, federated learning, and smart grids."[cite: 1, 2]
+
+# URL settings
+# If your repo is named '<username>.github.io', set baseurl to ""
+# If your repo is named 'academic-homepage', keep baseurl as "/academic-homepage"
+baseurl: ""
+url: "https://YOUR-GITHUB-USERNAME.github.io"
+
+# Profile Image
+avatar: "assets/img/profile.jpg"
+
+# Social & Academic Links
+google_scholar: "YOUR_GOOGLE_SCHOLAR_ID"[cite: 1]
+linkedin: "YOUR_LINKEDIN_USERNAME"[cite: 1]
+github: "YOUR_GITHUB_USERNAME"
+phone: "+91 8328896332"[cite: 1]
+
+# Research Focus Areas
+interests:
+  - Electric Vehicle-Grid Integration[cite: 1]
+  - AI/ML & Digital Twins in Power Systems[cite: 1, 2]
+  - Battery State Estimation (SOC / SOH)[cite: 1, 2]
+  - Federated Learning & Dynamic Charging[cite: 2]
+  - Modular Multilevel Converters (MMCs)[cite: 1]
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-email-protect
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# timezone: Asia/Shanghai
-
+# Collections
 collections:
   - publications
   - news
