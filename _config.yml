@@ -32,8 +32,8 @@ interests:
 
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-email-protect
+#plugins:
+#  - jekyll-email-protect
 
 # Collections
 collections:
